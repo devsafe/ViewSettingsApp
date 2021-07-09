@@ -14,6 +14,8 @@ struct ContentView: View {
     @State private var opacity = 1.0
     var body: some View {
         VStack{Text("Hello, SwiftUI!")
+            
+        Image("cube")
             .font(.largeTitle)
             .padding()
             .background(Color.pink)
